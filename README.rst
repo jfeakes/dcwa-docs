@@ -1,9 +1,27 @@
-Template for the Read the Docs tutorial
-=======================================
+=================
+Full documentation at: https://dcwa-docs.readthedocs.io/en/latest/
+=================
+.. inclusion-marker-do-not-remove
+.. image:: http://readthedocs.org/projects/dcwa-docs/badge/?version=latesty
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Introduction
+============
 
-Read the tutorial here:
+Summary
+-------
+These scripts are used for a variety of tasks in the video/film/photography/optical media workflows at DCWA.
+They have been exclusively tested on Windows 10, however many are OS-agnostic, being 100% Python-based.
+Mostly built in Python 3.9 and later.
 
-https://docs.readthedocs.io/en/stable/tutorial/
+Table of Contents
+-----------------
+
+
+.. toctree::
+   :maxdepth: 4
+   :caption: Contents:
+   
+   installation
+   contributing
+   usage
+   credits
